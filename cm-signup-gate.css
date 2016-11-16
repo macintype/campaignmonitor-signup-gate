@@ -1,0 +1,33 @@
+.cm-signup-gate-modal {
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.8);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	z-index:900;
+	display:none;
+	font-size:18px;
+}
+.cm-signup-gate-modal > div {
+	position:relative;
+	background:#fff;
+	width:420px;
+	height:auto;
+	margin:auto;
+	margin-top:40px;
+	padding:20px;
+}
+a.cm-signup-gate-close {
+	position:absolute;
+	right:-18px;
+	top:-32px;
+	font-size:32px;
+	color:#fff;
+}
+.cm-signup-gate-err {
+	display:none;
+	color:red;
+}
