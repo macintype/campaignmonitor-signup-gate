@@ -1,4 +1,4 @@
-010<?php
+<?php
 
 class CMSignupGateAdmin {
 	private $options;
